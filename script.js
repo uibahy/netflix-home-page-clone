@@ -1,5 +1,5 @@
 const container = document.querySelector('.preloader');
 
 window.addEventListener('load' , () =>{
-  container.classList.add('hide-preloader');
-})
+    setTimeout( () => document.querySelector('.preloader').classList.add('hide-preloader'), 2.5*1000);
+  })
